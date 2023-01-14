@@ -22,7 +22,23 @@ PyAutogui | Python
 The library used to make the automation of the things, simulate clicks, open the browser, acces some address of website and another things | The language that i choose to build this code
 
 ### Observations Of This Project:
-None
+If you want reply this project on your computer, you have to install the library 'pyautogui', copy and past the information bellow to install the library please
+
+~~~ Installing Pyautogui
+
+pip install pyautogui
+~~~
+
+Also that, please, don't forget to change the attributes of clicks inside pyautogui, the project can not run inside your machine if the resolution of you monitor is different of mine, to get the positions x and y of the coordinates in yout computer and pass for your code, follow the instruction bellow: 
+
+~~~ Getting The Coordinate Of The Elements Of Your Screen With PyAutoGui
+
+import pyautogui as py 
+import time
+
+time.sleep(10)
+print(py.position())
+~~~
 
 ### Verify Project On Your Computer:
 You can clone this project and run in your computer.
