@@ -39,6 +39,3 @@ import time
 time.sleep(10)
 print(py.position())
 ~~~
-
-### Verify Project On Your Computer:
-You can clone this project and run in your computer.
